@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints a phrase
+ * main - Entry point
  *
- * Return: 0 at the end of the program
+ * Return: Always 0 (Success)
  *
  *
  */
