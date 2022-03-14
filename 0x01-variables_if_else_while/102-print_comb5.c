@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the combination of two two digits
+ * main - prints the combination of two two-digit numbers
  *
- * Return: 0, Everytime,
+ * Return: 0, Everytime.
  *
  */
 
@@ -20,7 +20,7 @@ int main(void)
 		{
 			for (c = 48; c <= 57; c++)
 			{
-				for (d = 48; c <= 57; d++)
+				for (d = 48; d <= 57; d++)
 				{
 					if (a < c || (a == c && b < d))
 					{
@@ -30,10 +30,9 @@ int main(void)
 						putchar(c);
 						putchar(d);
 					if (a != 57 || b != 56 || c != 57 || d != 57)
-
 						{
-							putchar(44);
-							putchar(32);
+						putchar(44);
+						putchar(32);
 						}
 					}
 				}
