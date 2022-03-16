@@ -1,23 +1,18 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
  * main - should print all the alphabets in lowercase
- *
- * Return: 0, Everytime.
  *
  */
 
 void print_alphabet(void)
-{
-	char i = 'a';
 
-	while (i < 'z')
+{
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
-		_putchar(i);
-		i++;
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
