@@ -10,16 +10,10 @@
 
 int main(void)
 {
-	char s[9] = "_putchar";
-	int i = 0; 
+	char s = "_putchar";
 
-	while (i < 8)
-	{
-		_putchar(s[i]);
-		i++;
-	}
-	_putchar('\n');
-
+	printf("%c", s);
+	prinf("\n");
 	return (0);
 }
 
