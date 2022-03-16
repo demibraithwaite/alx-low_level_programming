@@ -13,7 +13,7 @@ int main(void)
 	char s = "_putchar";
 
 	printf("%c", s);
-	prinf("\n");
+	printf("\n");
 	return (0);
 }
 
