@@ -7,8 +7,10 @@ void print_alphabet(void)
 
 	while (i < 122)
 	{
-		_putchar(i);
+		putchar(i);
 		i++;
 	}
-	_putchar('\n')
+	_putchar('\n');
+
+	return (0);
 }
