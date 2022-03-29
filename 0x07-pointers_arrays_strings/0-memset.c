@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * _memset - fills the first bytes with the constant byte, b.
  * @b: the constant byte.
