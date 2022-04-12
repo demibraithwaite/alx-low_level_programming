@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: A program that prints the name of the file 
+ * Description:ys 0
  * that it was compiled from
  * Return: Always o
  */
